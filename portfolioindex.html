@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jane Doe | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: whitesmoke ;
+      color: black;
+    }
+    header {
+      background-color: blueviolet;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: blue;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #6200ea;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #6200ea;
+      color: white;
+    }
+    a.download-cv {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 15px;
+      background-color: #03dac6;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form input[type="submit"] {
+      background-color: #6200ea;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    profile picture{
+
+    }
+  </style>
+</head>
+<title>My Portfolio</title>
+<body>
+  <header>
+    <h1>Patrick Kungu</h1>
+    <p>Aspiring Web Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#languages">Languages</a>
+    <a href="#education">Education</a>
+    <a href="#interests">Interests</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="images/patoh.jpg" alt="Photo of Patrick"class= "profile pic"
+      
+      <p>Hello! I’m a passionate and curious beginner in web development with a background in nursing. My journey into tech started from a desire to explore new ways of solving real-world problems using digital tools. As a nurse, I’ve always cared deeply about improving people’s lives and now I’m excited to do that through technology. My growing interest in tech was sparked by the increasing role digital systems play in healthcare and daily life. I may be new to coding, but I’m committed to learning, building, and becoming part of the future of innovation, especially where tech meets human care.</p>
+    </section>
+
+    <section id="languages">
+      <h2>Programming Languages</h2>
+      <ul>
+        <li>HTML</li>
+        <li>Python (beginner)</li>
+        <li>JavaScript (currently learning)</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p>Bachelors of science in Nursing - Presbyterian University (2024)</p>
+      <p> Software Engineeering-PLP Academy (2024)</p>
+      <a href="cv.pdf/" download class="download-cv">Download My CV</a>
+    </section>
+
+    <section id="interests">
+      <h2>Interests</h2>
+      <p>I'm passionate about:</p>
+        <ul>
+          <li>front-end development</li>
+          <li>education technology</li>
+           <li> making websites that are easy to use and look great. </li>
+            <li>collaborating with others and turning ideas into digital projects.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Personal Portfolio Website</strong>
+          <p>This is my first project built using basic HTML and CSS. It showcases my bio, skills, and goals as a beginner developer.</p>
+        <li><bold>More to come.Keep locked!</bold></li>
+        
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <ul>
+        <li>Email: kungupatrick772@gmail.com</li>
+        <li>Phone: +254 759659482</li>
+        </ul>
+
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Patrick Kungu | All rights reserved.</p>
+  </footer>
+</body>
+</html>
